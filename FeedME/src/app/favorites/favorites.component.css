@@ -1,0 +1,115 @@
+mat-spinner {
+    margin: auto;
+    color: red;
+  }
+
+.random_recipes {
+    display: flex;
+    flex-direction: column;
+    margin: 100px auto;
+    max-width: 1360px;
+    width: 100%;
+
+
+}
+
+
+
+p, a{
+    text-overflow: ellipsis;
+    cursor: pointer;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0px;
+    text-decoration: none;
+    color: black;
+}
+
+.name {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 186px;
+    text-align: center;
+}
+
+.all_food {
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 40px 44px;
+    padding: 28px 24px;
+
+}
+
+.food {
+    background-color: #FFFBE1;
+    flex-flow: row wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 238px;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 15px, rgba(0, 0, 0, 0.23) 0px 3px 15px;
+    padding: 14px;
+    position: relative;
+    overflow: hidden; /* To ensure the gradient doesn't overflow */
+    transition: background-color 0.5s, border-color 0.8s, box-shadow 0.8s; /* Adding transition */
+    border: 3px solid transparent; /* Transparent border initially */
+}
+
+.food:hover {
+    border-color: #DE5F35; /* Change border color on hover */
+}
+
+
+
+
+.food_pic {
+    aspect-ratio: 2/2;
+    object-fit: cover;
+    width: 100%;
+    max-width: 232px;
+    border-radius: 10px;
+    
+}
+
+.food_like {
+    width: 232px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding-top: 14px;
+    text-overflow: ellipsis;
+
+}
+
+.like:hover {
+    background: url(../../assets/images/food/liked.svg);
+}
+.like {
+    width: 20px;
+    position: absolute;
+    right: 0px;
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+
+
+
+h1 {
+    white-space: nowrap;
+    font-family: Circular, "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 19px;
+    text-align: center;
+    margin-bottom: 28px;
+    color: #55433C;
+    
+}

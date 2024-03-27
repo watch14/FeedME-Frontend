@@ -1,0 +1,11 @@
+<!-- flags -->
+<div class="country">
+    <h1>Recipes by Country</h1>
+    <div class="flags">
+        <a *ngFor="let country of countries"
+           (click)="redirectToRecipe(country.strArea.toLowerCase())"
+           [routerLink]="['/favorite']">
+            <img [src]="getFlagImageUrl(country.strArea)" class="fla">
+        </a>
+    </div>
+</div>

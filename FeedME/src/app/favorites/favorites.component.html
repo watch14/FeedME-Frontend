@@ -1,0 +1,14 @@
+
+<div class="random_recipes">
+    <h1>Resault</h1>
+    <div class="all_food">
+        <div class="food" *ngFor="let meal of meals">
+            <a (click)="redirectToRecipe(meal.idMeal)">
+                <img class="food_pic" [src]="meal.strMealThumb" alt="">
+            </a>
+            <div class="food_like">
+                <a (click)="redirectToRecipe(meal.idMeal)">{{ meal.strMeal }}</a>
+            </div>
+        </div>
+    </div>
+</div>

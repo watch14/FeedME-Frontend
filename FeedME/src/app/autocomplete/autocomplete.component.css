@@ -1,0 +1,202 @@
+.slider {
+  object-fit: cover;
+  margin: 0px;
+  width: 100%;
+  height: 440px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 15px, rgba(0, 0, 0, 0.23) 0px 3px 15px;
+}
+
+.select {
+  padding: 28px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /*
+  background-color: #EDE9D0;
+  */
+  letter-spacing: 0.2px;
+
+  margin: 0 auto;
+  max-width: 1360px;
+  width: 100%;
+}
+
+h1 {
+  white-space: nowrap;
+  font-family: Circular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #55433C;
+}
+
+h3 {
+  font-size: 20px;
+  margin: 0px;
+}
+
+h2 {
+  font-size: 20px;
+  padding: 24px 0 0 0;
+}
+
+.field {
+  padding: 28px 0 12px;
+  max-width: 600px;
+  width: 100%;
+}
+
+.auto {
+  background-color: #e26f48;
+}
+
+button {
+  width: 368px;
+  height: 60px;
+  border-radius: 5px;
+  background: #de5f35;
+  white-space: nowrap;
+  border: none;
+  transition: 0.3s;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 15px, rgba(0, 0, 0, 0.23) 0px 3px 15px;
+  background-color: #e26f48;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #de5f35;
+  transform: scale(1.1);
+}
+
+.butt {
+  color: #ffffff;
+  font-family: Circular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 28px;
+}
+
+p, a{
+  text-overflow: ellipsis;
+  cursor: pointer;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0px;
+  text-decoration: none;
+  color: black;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 186px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.example-img {
+  vertical-align: middle;
+  width: 100%;
+  max-width: 160px;
+  height: auto;
+}
+
+.selected-ingredients-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 0px 32px;
+  font-size: 16px;
+}
+
+.ingrid {
+  aspect-ratio: 1/1;
+  width: 100%;
+  max-width: 250px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ede9d0;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 15px, rgba(0, 0, 0, 0.23) 0px 3px 15px;
+  padding: 20px;
+  border-radius: 10px;
+  border: 3px solid #de5f35;
+}
+
+.close {
+  position: absolute;
+  width: 16px;
+  top: 10px;
+  right: 10px;
+}
+
+.dropdown {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.all_food {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 40px 44px;
+  padding: 28px 24px;
+}
+
+.food {
+  background-color: #fffbe1;
+  flex-flow: row wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 238px;
+  border-radius: 7px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 15px, rgba(0, 0, 0, 0.23) 0px 3px 15px;
+  padding: 14px;
+  position: relative;
+  overflow: hidden; /* To ensure the gradient doesn't overflow */
+  transition: background-color 0.5s, border-color 0.8s, box-shadow 0.8s; /* Adding transition */
+  border: 3px solid transparent; /* Transparent border initially */
+}
+
+.food:hover {
+  border-color: #de5f35; /* Change border color on hover */
+}
+
+.food_pic {
+  aspect-ratio: 2/2;
+  object-fit: cover;
+  width: 100%;
+  max-width: 232px;
+  border-radius: 10px;
+}
+
+.food-like {
+  position: absolute;
+  bottom: 10px; 
+  left: 50%;
+  transform: translateX(-50%); 
+  display: flex;
+  align-items: center;
+}
+
+
+.name {
+  margin: 15px 0 5px 0;
+}
+.all_food{
+  padding-inline-start: 0 24px;
+}
